@@ -32,6 +32,11 @@ Mijn startniveau is: blauw
   
   <img src="readme-images/schetstrappen.png" width="375px" alt="eerste versie/schets">
   
+  <img src="readme-images/conceptinfoscherm.png" width="375px" alt="eerste versie/schets">
+  
+  <img src="readme-images/concepttrap.png" width="375px" alt="eerste versie/schets">
+  
+  
 
 
   ### Je ambitie: 
