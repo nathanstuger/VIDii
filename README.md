@@ -27,7 +27,6 @@ Mijn startniveau is: blauw
 
   ### De eerste versie/schets:
   
-  
   <img src="readme-images/schetsinfoscherm.png" width="375px" alt="eerste versie/schets">
   
   <img src="readme-images/schetstrappen.png" width="375px" alt="eerste versie/schets">
@@ -43,11 +42,11 @@ Mijn startniveau is: blauw
   Aan deze technieken/punten wil ik werken:
   1. Verdiepen in de verschillende bruikbare elementen, ik gebruik vaak dezelfde elementen terwijl er een hoop andere gebruikt kunnen worden.
   2. Zo min mogelijk gebruik maken van classes en Id's
-  3. Proberen meer te werken met javascript.  
+  3. Ik zou graag meer willen doen met javascript, ik heb hier voor een bepaalde tijd niet veel mee gedaan. 
   
- <img src="readme-images/websiteconcepttransistion" width="375px" alt="eerste versie/schets">
+ <img src="readme-images/conceptwebsite.png" width="375px" alt="eerste versie/schets">
   
-  <img src="readme-images/websiteconcepttransistion2" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/conceptwebsite2.png" width="375px" alt="eerste versie/schets">
 </details>
 
 
@@ -59,23 +58,20 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en).
+  In mijn eerste concept is te zien dat de achtergrond waarop de spoken staan een basis kleur heeft. Dit geeft niet echt goed de sfeer van Mario weer.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Een wat levendigere achtergrond gebruiken, wellicht een achtergrond uit het echte spel.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  In het tweede scherm komt het beeld niet helemaal naar voren, dit komt door de overlay van het spook. De tanden blokkeren een hoop van de afbeelding. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+ Het eerste concept wat minder op de voorgrond zetten en zorgen dat de tekst + afbeelding goed tot zijn recht komt. 
 
 
-
-  ### Bevinding 3:
-  ...
 
 </details>
 
@@ -171,9 +167,10 @@ Mijn startniveau is: blauw
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2: Flashlight cursor effect Link: https://codepen.io/tomhodgins/pen/egWjBb dit effect kwam er handig uit voor mijn concept. Na het maken van een aantal aanpassingen was werkte dit perfect voor mijn site. 
-3. bron 3: Afbeeldingen Dit is de video waaruit ik de verschillende versies van de spoken heb gehaald.https://www.youtube.com/watch?v=JIJ6c_n_tVs 
-4. afbeelding van het laatste spook genaamd "Peepa" https://www.mariowiki.com/Peepa
+1. bron 1: Flashlight cursor effect Link: https://codepen.io/tomhodgins/pen/egWjBb dit effect kwam er handig uit voor mijn concept. Na het maken van een aantal aanpassingen was werkte dit perfect voor mijn site. 
+2. bron 2: Afbeeldingen Dit is de video waaruit ik de verschillende versies van de spoken heb gehaald.https://www.youtube.com/watch?v=JIJ6c_n_tVs 
+3. Bron 3 :afbeelding van het laatste spook genaamd "Peepa" https://www.mariowiki.com/Peepa
+4. Bron 4: Achtergrond afbeelding https://www.supermariobrosx.org/forums/viewtopic.php?t=11820
+5. Bron 5: Dit is de bron van het achtergrond geluid dat ik heb gebruikt voor de site:https://www.youtube.com/watch?v=JIL1T93Y59s
 
 </details>
