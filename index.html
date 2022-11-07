@@ -8,16 +8,16 @@
 
     <title>VIDii 2022/23 - Tijdlijn</title>
 
-    <link href="styles/style.css" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
 </head>
 
 <body>
 
+    
+
     <header>
         <nav>
-
-
             <p>MARIO 0000</p>
             <p>x30</p>
             <p>Super Mario</p>
@@ -25,32 +25,54 @@
                 1-1</p>
             <p>0013009630</p>
         </nav>
-
     </header>
     <main>
+
+
+
+        <section id="venster">
+            <button id="sluitVenster">
+                X
+            </button>
+            <h1 id="titel">
+                Extra Informatie
+            </h1>
+            <section id="beschrijving">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consectetur unde incidunt temporibus blanditiis cum modi explicabo consequatur quae ea ipsum nulla doloremque architecto excepturi adipisci, recusandae a, tenetur nemo.
+            </section>
+            
+            <img src="./images/boo.png" id="spookImage" alt="" class="vensterAfbeelding">
+        </section>
+
         <section>
             <article>
-                <img src="images/boo2.png">
+                <button class="spook hover-switch" id="0">
+                    <img src="./images/mario1a.png">
+                    <img src="./images/mario1.png">
+                    
+                    
+                </button>
+                <ul></ul>
+            </article>
+            <article> 
+                <button class="spook" id="1"><img src="./images/mario2.png">
+                </button>
                 <ul></ul>
             </article>
             <article>
-                <img src="images/boo2.png">
+               <button class="spook" id="2"> <img src="./images/mario3.png" ></button>
                 <ul></ul>
             </article>
             <article>
-                <img src="images/boo2.png">
+               <button class="spook" id="3"> <img src="./images/mario4.png"></button>
                 <ul></ul>
             </article>
             <article>
-                <img src="images/boo2.png">
-                <ul></ul>
-            </article>
-            <article>
-                <img src="images/boo2.png">
+               <button class="spook" id="4"> <img src="./images/mario5.png"> </button>
                 <ul></ul>
             </article>
         </section>
-
+        
 
 
 
@@ -101,9 +123,17 @@
 			</li>
 		</ol>
  -->
+ 
+ 
+ <section> 
+    <audio controls autoplay loop>
+    <source src="sounds/ghosthouse.mp3" type="audio/mpeg"/>
+    Your browser does not support the HTML5 audio tag. Consider updating to a newer browser.
+   </audio>
+</section> 
     </main>
+    <script type="module" src="./scripts/script.js"></script>
 
-    <script src="scripts/script.js"></script>
 </body>
 
 </html>

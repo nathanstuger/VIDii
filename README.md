@@ -43,9 +43,11 @@ Mijn startniveau is: blauw
   Aan deze technieken/punten wil ik werken:
   1. Verdiepen in de verschillende bruikbare elementen, ik gebruik vaak dezelfde elementen terwijl er een hoop andere gebruikt kunnen worden.
   2. Zo min mogelijk gebruik maken van classes en Id's
-  3. Proberen te werken met javascript.  
+  3. Proberen meer te werken met javascript.  
   
- 
+ <img src="readme-images/websiteconcepttransistion" width="375px" alt="eerste versie/schets">
+  
+  <img src="readme-images/websiteconcepttransistion2" width="375px" alt="eerste versie/schets">
 </details>
 
 
@@ -57,7 +59,7 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en).
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -171,6 +173,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. bron 1
 2. bron 2: Flashlight cursor effect Link: https://codepen.io/tomhodgins/pen/egWjBb dit effect kwam er handig uit voor mijn concept. Na het maken van een aantal aanpassingen was werkte dit perfect voor mijn site. 
-3. ...
+3. bron 3: Afbeeldingen Dit is de video waaruit ik de verschillende versies van de spoken heb gehaald.https://www.youtube.com/watch?v=JIJ6c_n_tVs 
+4. afbeelding van het laatste spook genaamd "Peepa" https://www.mariowiki.com/Peepa
 
 </details>
