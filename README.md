@@ -44,10 +44,6 @@ Mijn startniveau is: blauw
   2. Zo min mogelijk gebruik maken van classes en Id's
   3. Ik zou graag meer willen doen met javascript, ik heb hier voor een bepaalde tijd niet veel mee gedaan. 
   
- <img src="readme-images/websiteconcept.png" width="375px" alt="eerste versie/schets">
-  
-  <img src="readme-images/websiteconcept2.png" width="375px" alt="eerste versie/schets">
-</details>
 
 
 
@@ -91,6 +87,11 @@ Mijn startniveau is: blauw
 
   #### oplossing:
  Een hover toevoegen over de spoken met de verschillende versies om het mario effect te na te maken.
+
+ <img src="readme-images/websiteconcept.png" width="375px" alt="eerste versie/schets">
+  
+  <img src="readme-images/websiteconcept2.png" width="375px" alt="eerste versie/schets">
+</details>
 
 
 
