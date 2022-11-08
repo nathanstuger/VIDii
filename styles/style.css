@@ -12,39 +12,67 @@
 }
 
 
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-/* naar een idee van Jen Simmons */
+}
+
+
+
+
 *, *::after, *::before {
-  box-sizing:border-box;  
+    box-sizing:border-box;  
 }
 
 body {
-  margin:0;
+    margin:0;
+    font-family: 'early_gameboyregular', Arial, sans-serif;
+}
 
+
+
+
+
+/*This section is used to make the the background move*/
+
+body {
+    position: absolute;
+    display: flex;
+    place-content: center;
+    overflow: hidden;
+    background-image: url("../images/ghosthouse.png");
+    animation: move 40s linear infinite;
+}
+
+@keyframes move {
+    0% {background-position:top left}
+    100% {background-position:top right}
+}
+
+
+
+
+
+
+/*The article code under this text styles the bars connected to the ghosts*/
+
+article ul{
+    background: rgb(39,23,98);
+    background: linear-gradient(90deg, rgba(39,23,98,1) 22%, rgba(28,15,74,1) 54%, rgba(39,23,98,1) 87%);
+    width: 6em;
+    height:1em;
+    border: 0.08em solid #a188ff;
+    box-shadow: 5% #0b0036;
+    color: white;
+    font-family: arial;
 }
 
 button:not([disabled]) {
-  cursor:pointer;
-}
-
-
-
-
-section {
-    display: flex;
-    flex-direction:row;
-    
-}
-
-article ul{
-  
-    background: rgb(39,23,98);
-  background: linear-gradient(90deg, rgba(39,23,98,1) 22%, rgba(28,15,74,1) 54%, rgba(39,23,98,1) 87%);
-    width: 6em;
-    height:1em;
- border: 0.08em solid #a188ff;
-box-shadow: 5% #0b0036;
-    
+    cursor:pointer;
 }
 
     
@@ -54,191 +82,152 @@ article button{
     z-index: -2; 
     background-color: transparent;
     border:none;
-    
-    
-    
+
 }
-
-
 article {
- z-index: -2;
+    z-index: -2;
 }
-
-
 
 
 article:nth-of-type(1){
-display: flex;
-flex-direction: column;
-position:absolute;
-top: 10vh;
-left: 1%;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 20em;
+    left: 40%;
+    animation: float0 10s linear infinite;
 }
 
 article img:nth-of-type(1){
-display: flex;
-flex-direction: column;
-width:5em;
+    display: flex;
+    flex-direction: column;
+    width:5em;
 }
 
 article:nth-of-type(2){
-  display: flex;
-  flex-direction: column;
-  position:absolute;
-  top: 25vh;
-  left: 15%;
-  }
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 0;
+    left:0;
+    animation: float1 10s linear infinite;
+}
   
-  article img:nth-of-type(2){
-  display: flex;
-  flex-direction: column;
-  width:5em;
-  
-  }
+article img:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    width:5em;
+}
 
 article:nth-of-type(3){
-display: flex;
-flex-direction: column;
-position:absolute;
-top: 60vh;
-left: 33%;
-
- 
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 0;
+    left: 0;
+    animation: float2 10s linear infinite;
 }
 
 article img:nth-of-type(3){
-display: flex;
-flex-direction: column;
-width:5em;
-
-
-
+    display: flex;
+    flex-direction: column;
+    width:5em;
 }
 
 
-
-
-
 article:nth-of-type(4){
-display: flex;
-flex-direction: column;
-position:absolute;
-top: 20vh;
-left: 52%;
-
- 
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 50;
+    left: 0;
+    animation: float3 10s linear infinite;
 }
 
 
 article img:nth-of-type(4){
-display: flex;
-flex-direction: column;
-width:5em;
-
+    display: flex;
+    flex-direction: column;
+    width:5em;
 }
 
 
-
 article:nth-of-type(5){
-display: flex;
-flex-direction: column;
-position:absolute;
-top: 80vh;
-left: 70%;
- 
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 0;
+    left: 0;
+    animation: float4 10s linear infinite;
 }
 
 
 article img:nth-of-type(5){
-display: flex;
-flex-direction: column;
-width:5em;
-
-}
-
-header nav {
     display: flex;
-    color:white;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-transform: uppercase;
+    flex-direction: column;
+    width:5em;
 }
 
-p{
-padding-right: 0.5em;
-padding-left:0.4em;
-font-family: 'early_gameboyregular', Arial, sans-serif;
-font-weight:normal;
-font-style:normal;
+
+
+
+
+
+
+/*This is the code that styles the nav/header*/
+
+header{
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+nav p{
+    padding: 0 0.5em;
+    margin: 0;   
+   
 }
 
 p:nth-of-type(3){ 
-font-size: 3em;
-margin-top:0.02em; 
+    font-size: 3em; 
 }
 
 
-/*FLASHLIGHT EFFECT*/
+
+
+/*This is the code for the flashlight effect*/
+
+
+
+
+FLASHLIGHT EFFECT
 :root {
-  cursor: none;
+    cursor: none;
   --cursorX: 50vw;
   --cursorY: 50vh;
 }
 
 :root:before {
-  content:"";
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  pointer-events: none;
-  background: radial-gradient(
+    content:"";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+    background: radial-gradient(
     circle 10vmax at var(--cursorX) var(--cursorY),
     rgba(0,0,0,0) 0%,
     rgba(0,0,0,.5) 80%,
     rgba(0,0,0,.95) 100%
   )
-}
-
-
-
-/*
-Eerste kind
-*/
-
-.hover-switch > img:first-child{
-  opacity:0;
-}
-
-.hover-switch > img:nth-child(2){
-  opacity:1;
-  transform: translateX(-100%);
-}
-
-.hover-switch:hover img:first-child{
-  opacity:1;
-}
-
-.hover-switch:hover img:nth-child(2){
-  opacity:0;
-}
-
-/* 
- * Show the last image by default
-*/
-.hover-switch > img{
-  transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -webkit-transition: opacity 0.6s ease-in-out;
-}
- 
-section audio{  
-opacity: 10%;
-display: flex;
-position:absolute;
-top: 40vh;
-left: 80%;
-
 }
 
 
@@ -249,7 +238,9 @@ left: 80%;
 /*********************/
 
 :root {
-  --color-text:white;
+    --color-text:white;
+    --color-buttons:#D62B2B;
+
 }
 
 p {
@@ -260,58 +251,199 @@ p {
 
 
 
-/********************/
-/* ALGEMENE STYLING */
-/********************/
 
 
-  
 
-body {
-  position: relative;
-	display: grid;
-	place-content: center;
-	overflow: hidden;
-  background-image: url("../images/ghosthouse.png")
+
+
+/*These are the keyframes used to make the ghosts float*/
+
+
+@keyframes float0 {
+    0% {transform:translate(-12vw, 40vh)}
+    30% {transform:translate(15vw, 40vh)}
+    40% {transform:translate(20vw, 40vh)}
+    60% {transform:translate(60vw, 70vh)}
+    80% {transform:translate(80vw, 40vh)}
+    100% {transform: translate(100vw, 80vh)}
+}
+
+@keyframes float1 {
+    0% {transform:translate(-12vw, 60vh)}
+    20% {transform:translate(10vw, 60vh)}
+    40% {transform:translate(40vw, 60vh)}
+    60% {transform:translate(50vw, 60vh)}
+    80% {transform:translate(70vw, 60vh)}
+    100% {transform: translate(100vw, 70vh)}
+}
+
+@keyframes float2 {
+    0% {transform:translate(-4vw, 2vh)}
+    20% {transform:translate(12vw, 70vh)}
+    50% {transform:translate(45vw, 70vh)}
+    60% {transform:translate(60vw, 70vh)}
+    80% {transform:translate(80vw, 70vh)}
+    100% {transform: translate(100vw, 40vh)}
+}
+
+@keyframes float3 {
+    0% {transform:translate(-10vw, 20vh)}
+    20% {transform:translate(13vw, 20vh)}
+    60% {transform:translate(25vw, 20vh)}
+    60% {transform:translate(60vw, 20vh)}
+    80% {transform:translate(40vw, 20vh)}
+    100% {transform: translate(100vw, 20vh)}
+}
+
+@keyframes float4 {
+    0% {transform:translate(-10vw, 30vh)}
+    20% {transform:translate(16vw, 35vh)}
+    40% {transform:translate(20vw, 40vh)}
+    60% {transform:translate(30vw, 45vh)}
+    80% {transform:translate(40vw, 50vh)}
+    100% {transform: translate(100vw,60vh)}
 }
 
 
+/* from this point starts the general styling of the sections*/
 
-
-
-
-/* MODAL */
-
-#venster{
-  width:50%;
-  background-color:white;
+section:not(:first-child){
+  width:40%;
+  background-color:whitesmoke;
   position: absolute;
-  top:70%;
+  top: 10vh;
   left:50%;
   right:50%;
   transform: translateX(-50%);
   display:none;
   z-index: 10;
   padding: 2rem;
-  border-radius:0.125rem;
-  
-}
-
-.vensterAfbeelding{
-  height:10em;
-  padding-top: 2em;
+  border-radius:0.2em;
+  flex-direction: column;
+  height: auto;
 }
 
 
 
-#sluitVenster{
-background-color: #a188ff;
+section p:not(:first-child){
+font-family: 'robotoregular', Arial, sans-serif;
 color: black;
+font-weight: lighter;
 }
-/* ... */
 
 
 
-  
+/*from this point starts the styling of the buttons in the section*/
+section:nth-of-type(2) button {
+    background-color: #D62B2B;
+    width: 20%;
+    margin: auto;
+    border-color:#910101;
+    transition: color 0.4s linear;
+}
 
-  
+section:nth-of-type(2) button:hover{
+background-color: #910101;
+    
+}
+
+
+section:nth-of-type(2) button:active{
+background-color: background: rgb(201,21,21);
+background: radial-gradient(circle, rgba(201,21,21,1) 0%, rgba(89,2,2,1) 100%);
+
+}
+
+
+section:nth-of-type(3) button {
+    background-color: #D62B2B;
+    width: 20%;
+    margin: auto;
+    border-color:#910101;
+    transition: color 0.4s linear;
+}
+
+section:nth-of-type(3) button:hover{
+background-color: #910101;
+    
+}
+
+
+section:nth-of-type(3) button:active{
+background-color: background: rgb(201,21,21);
+background: radial-gradient(circle, rgba(201,21,21,1) 0%, rgba(89,2,2,1) 100%);
+
+}
+
+
+
+section:nth-of-type(4) button {
+    background-color: #D62B2B;
+    width: 20%;
+    margin: auto;
+    border-color:#910101;
+    transition: color 0.4s linear;
+}
+
+section:nth-of-type(4) button:hover{
+background-color: #910101;
+    
+}
+
+
+section:nth-of-type(4) button:active{
+background-color: background: rgb(201,21,21);
+background: radial-gradient(circle, rgba(201,21,21,1) 0%, rgba(89,2,2,1) 100%);
+
+}
+
+section:nth-of-type(5) button {
+    background-color: #D62B2B;
+    width: 20%;
+    margin: auto;
+    border-color:#910101;
+    transition: color 0.4s linear;
+}
+
+section:nth-of-type(5) button:hover{
+background-color: #910101;
+    
+}
+
+
+section:nth-of-type(5) button:active{
+background-color: background: rgb(201,21,21);
+background: radial-gradient(circle, rgba(201,21,21,1) 0%, rgba(89,2,2,1) 100%);
+
+}
+
+
+
+section:nth-of-type(6) button {
+    background-color: #D62B2B;
+    width: 20%;
+    margin: auto;
+    border-color:#910101;
+    transition: color 0.4s linear;
+}
+
+section:nth-of-type(6) button:hover{
+background-color: #910101;
+    
+}
+
+
+section:nth-of-type(6) button:active{
+background-color: background: rgb(201,21,21);
+background: radial-gradient(circle, rgba(201,21,21,1) 0%, rgba(89,2,2,1) 100%);
+
+}
+
+
+/*End styling buttons of the section*/
+
+
+main section.show{
+    display:flex;
+}
+
