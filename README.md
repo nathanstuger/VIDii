@@ -64,7 +64,6 @@ Mijn startniveau is: blauw
   Een wat levendigere achtergrond gebruiken, wellicht een achtergrond uit het echte spel.
 
 
-
   ### Bevinding 2:
   In het tweede scherm komt het beeld niet helemaal naar voren, dit komt door de overlay van het spook. De tanden blokkeren een hoop van de afbeelding. 
 
@@ -72,9 +71,30 @@ Mijn startniveau is: blauw
  Het eerste concept wat minder op de voorgrond zetten en zorgen dat de tekst + afbeelding goed tot zijn recht komt. 
 
 
+ ### Bevinding 3:
+  Ik heb steeds hetzelfde spook terug laten komen waardoor het effect van minder duidelijk overkomt.
+
+  #### oplossing:
+ De spoken toevoegen hoewel zijn deze nog niet vrij zijn gemaakt.
+ 
+ 
+  ### Bevinding 4:
+  In mijn eerste concept heb ik trappen gebruikt om de spoken op te "plaatsen". Deze trappen zijn 3D en wil ik graag volledig in CSS maken. Na wat meer onderzoek te hebben gedaan en dit besproken te hebben is dit moeilijker dan gedacht. 
+  
+
+  #### oplossing:
+ De d3 trappen zijn ingewikkeld om te maken en dat is misschien juist interessant. De stijl is helaas niet echt in de Mario stijl. Het is misschien handiger om iets uit het level van de spoken toe te voegen. 
+ 
+ 
+  ### Bevinding 5:
+ Er is niet echt een interactief aspect hoewel je op de button drukt moet er nog iets zijn dat deze ervaring speciaal maakt. 
+
+  #### oplossing:
+ Een hover toevoegen over de spoken met de verschillende versies om het mario effect te na te maken.
+
+
 
 </details>
-
 
 
 
@@ -89,19 +109,30 @@ Mijn startniveau is: blauw
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
-
-
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
-
-
   ### Bevinding 3:
-  ...
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+   ### Bevinding 4:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  ### Bevinding 5:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
 </details>
 
 
@@ -128,8 +159,23 @@ Mijn startniveau is: blauw
 
 
 
-  ### Bevinding 3:
-  ...
+   ### Bevinding 3:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+   ### Bevinding 4:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+   ### Bevinding 5:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
 </details>
 
