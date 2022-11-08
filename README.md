@@ -15,7 +15,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Nathan Stuger
 
 #### Je startniveau:
-Mijn startniveau is: blauw
+Mijn startniveau is: Blauw
 
 
 
