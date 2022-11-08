@@ -105,34 +105,40 @@ Mijn startniveau is: Blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
+  Alle kleuren zijn nog niet toegeveogd aan mijn Custom Properties.
+  
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Ik ga een definitieve keuze maken van alle kleuren en deze toevoegen aan de Custom Properties.
+  
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Binnen mijn code had ik nog een aantal px en em door elkaar gebruikt.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Zorgen dat ik een keuze maak tussen em en px en dit binnen de rest van het document doorvoer.
 
   ### Bevinding 3:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Kleurcodes en kleur aangegeven in woorden terug gevonden binnen mijn code.  
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Zoals het em en px verhaal ga ik een definitieve keuze maken tussen welke van de twee ik ga gebruiken. 
   
    ### Bevinding 4:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Binnen de code maak ik gebruik van Id's en classes. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik ga al deze id's en classes vervangen en tenzij ik deze goed kan onderbouwen.
   
   ### Bevinding 5:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Binnen Javascript heb ik gebruik gemaakt van inline styling + content.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik moet dit op een andere manier invoeren in javascript. Is dit niet lukt zonder classes te gebruiken ga ik hier hulp voor vragen. 
+  
+  <img src="readme-images/javascriptinline.png" width="375px" alt="eerste versie/schets">
+  
+  <img src="readme-images/cssid.png" width="375px" alt="eerste versie/schets">
+  
+  
   
 </details>
 
