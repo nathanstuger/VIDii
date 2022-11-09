@@ -16,7 +16,7 @@ var button2 = document.querySelector('main > section:nth-of-type(3) button')
 var button3 = document.querySelector('main > section:nth-of-type(4) button')
 var button4 = document.querySelector('main > section:nth-of-type(5) button')
 var button5 = document.querySelector('main > section:nth-of-type(6) button')
-
+//Hulp gehad van Jeffrey, liep vast om de classes en id's over te zetten  
 var spookgeluid = new Audio("sounds/spookysound.mp3");
 var closebutton = new Audio("sounds/closesound.mp3");
 
@@ -92,8 +92,8 @@ const update = (e) => {
   document.documentElement.style.setProperty('--cursorX', x + 'px')
   document.documentElement.style.setProperty('--cursorY', y + 'px')
 }
+//Deze code komt deels van het internet bron 1
 
-// WAAROP luisteren voor een event? WELK event, WAT doen
 document.addEventListener('mousemove',update)
 document.addEventListener('touchmove',update)
 //for(const spook of spoken){
