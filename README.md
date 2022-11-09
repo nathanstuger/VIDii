@@ -188,7 +188,6 @@ Mijn startniveau is: Blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -213,16 +212,7 @@ Mijn startniveau is: Blauw
   
 </details>
 
-```
-@keyframes float2 {
-    0% {transform:translate(-4vw, 2vh)}
-    20% {transform:translate(12vw, 70vh)}
-    50% {transform:translate(45vw, 70vh)}
-    60% {transform:translate(60vw, 70vh)}
-    80% {transform:translate(80vw, 70vh)}
-    100% {transform: translate(100vw, 40vh)}
-}
-```
+
 
 
 ## Bronnenlijst
