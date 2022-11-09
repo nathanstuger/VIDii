@@ -1,39 +1,88 @@
+var spook1 = document.querySelector('article:first-of-type button')
+var spook2 = document.querySelector('article:nth-of-type(2) button')
+var spook3 = document.querySelector('article:nth-of-type(3) button')
+var spook4 = document.querySelector('article:nth-of-type(4) button')
+var spook5 = document.querySelector('article:nth-of-type(5) button')
 
-//Overlay 1 ///
-var layover = document.getElementById("overlay1");
+var story1 = document.querySelector('main > section:nth-of-type(2)')
+var story2 = document.querySelector('main > section:nth-of-type(3)')
+var story3 = document.querySelector('main > section:nth-of-type(4)')
+var story4 = document.querySelector('main > section:nth-of-type(5)')
+var story5 = document.querySelector('main > section:nth-of-type(6)')
 
-var toggleButton = document.getElementById("toggle1");
-toggleButton.addEventListener("click", toggleOn);
 
-var removeLayover = document.getElementById("remove1")
-overlay1.addEventListener("click", toggleOn);
+var button = document.querySelector('main > section:nth-of-type(2) button')
+var button2 = document.querySelector('main > section:nth-of-type(3) button')
+var button3 = document.querySelector('main > section:nth-of-type(4) button')
+var button4 = document.querySelector('main > section:nth-of-type(5) button')
+var button5 = document.querySelector('main > section:nth-of-type(6) button')
 
-function toggleOn() {
-overlay1.classList.toggle("overlayOn");
-console.log("yes")
-};
+var spookgeluid = new Audio("sounds/spookysound.mp3");
+var closebutton = new Audio("sounds/closesound.mp3");
 
-//Overlay 2 ///
-var layover = document.getElementById("overlay2");
 
-var toggleButton = document.getElementById("toggle2");
-toggleButton.addEventListener("click", toggleOn);
+button.addEventListener('click', ()=>{
+console.log('hheeeey')
+    story1.classList.remove('show')
+    closebutton.play();
+    
+   
+})
 
-function toggleOn2() {
-overlay2.classList.toggle("overlayOn");
-console.log("yes")
-};
 
-//Overlay 3 ///
-var layover = document.getElementById("overlay3");
+button2.addEventListener('click', ()=>{
+console.log('hheeeey')
+    story2.classList.remove('show')
+    closebutton.play();
+})
 
-var toggleButton = document.getElementById("toggle3");
-toggleButton.addEventListener("click", toggleOn);
+button3.addEventListener('click', ()=>{
+console.log('hheeeey')
+    story3.classList.remove('show')
+    closebutton.play();
+})
 
-function toggleOn3() {
-overlay3.classList.toggle("overlayOn");
-console.log("yes")
-};
+button4.addEventListener('click', ()=>{
+console.log('hheeeey')
+    story4.classList.remove('show')
+    closebutton.play();
+})
+
+button5.addEventListener('click', ()=>{
+console.log('hheeeey')
+    story5.classList.remove('show')
+    closebutton.play();
+})
+
+
+
+
+spook1.addEventListener('click', ()=>{
+    console.log('hheeeey')
+    story1.classList.add('show')
+     spookgeluid.play();
+})
+spook2.addEventListener('click', ()=>{
+    console.log('hheeeey')
+    story2.classList.add('show')
+    spookgeluid.play();
+})
+spook3.addEventListener('click', ()=>{
+    console.log('hheeeey')
+    story3.classList.add('show')
+    spookgeluid.play();
+})
+spook4.addEventListener('click', ()=>{
+    console.log('hheeeey')
+    story4.classList.add('show')
+    spookgeluid.play();
+})
+spook5.addEventListener('click', ()=>{
+    console.log('hheeeey')
+    story5.classList.add('show')
+    spookgeluid.play();
+})
+
 
 
 const update = (e) => {
@@ -47,10 +96,10 @@ const update = (e) => {
 // WAAROP luisteren voor een event? WELK event, WAT doen
 document.addEventListener('mousemove',update)
 document.addEventListener('touchmove',update)
-for(const spook of spoken){
-  spook.addEventListener('click',()=>{
-    huidigVerhaal = spook.id;
-    toggleVenster();
-  })
-}
-sluitVenster.addEventListener('click',toggleVenster);
+//for(const spook of spoken){
+//  spook.addEventListener('click',()=>{
+//    huidigVerhaal = spook.id;
+//    toggleVenster();
+//  })
+//}
+//sluitVenster.addEventListener('click',toggleVenster);
